@@ -1,0 +1,13 @@
+streamlit>=1.40.0
+pandas>=2.2.0
+numpy>=1.26.0
+duckdb>=1.1.0
+plotly>=5.24.0
+scipy>=1.13.0
+statsmodels>=0.14.0
+pyarrow>=17.0.0
+python-dotenv>=1.0.0
+google-cloud-bigquery>=3.25.0; python_version >= "3.9"
+google-cloud-bigquery-storage>=2.26.0; python_version >= "3.9"
+pytest>=8.3.0
+pytest-cov>=5.0.0

@@ -1,0 +1,47 @@
+# Secrets
+.env
+*.json
+!package.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.eggs/
+.mypy_cache/
+.ruff_cache/
+
+# Data / generated
+data/*.csv
+data/*.parquet
+data/*.db
+exports/*.csv
+exports/*.parquet
+exports/*.md
+*.duckdb
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
